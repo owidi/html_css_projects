@@ -1,0 +1,60 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+
+    
+}
+.header{
+    background-color: tan;
+}
+li, a, button{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    border-radius:10px;
+    padding: 5px;
+    background-color: tan;
+    transition: all 0.3s ease 0.1s;
+    
+
+
+
+}
+header{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{ 
+    cursor: pointer;
+    transition: all 0.3s ease 1s;
+    
+    
+}
+.logo :hover{
+    color: brown;
+}
+
+
+
+.nav-links{
+    list-style: none;
+    
+}
+.nav-links, li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.nav-links, li, a{
+    transition: all 0.3s ease 1s;
+}
+.nav-links, li, a :hover {
+    color:brown;
+    
+}
