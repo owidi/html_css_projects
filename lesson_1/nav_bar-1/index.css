@@ -38,4 +38,9 @@
     transition: all 0.3s ease-out 0.1s ;
 
 }
+.open{
+    align-items: center;
+    margin: 30px;
+    padding: 50px;
 
+}
